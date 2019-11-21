@@ -9,17 +9,20 @@ Movie.delete_all()
 
 star1 = Star.new({
   'first_name' => 'Julia',
-  'last_name' => 'Roberts'
+  'last_name' => 'Roberts',
+  'fee' => 50
 })
 
 star2 = Star.new({
   'first_name' => 'Richard',
-  'last_name' => 'Gere'
+  'last_name' => 'Gere',
+  'fee' => 70
 })
 
 star3 = Star.new({
   'first_name' => 'Jeff',
-  'last_name' => 'Bridges'
+  'last_name' => 'Bridges',
+  'fee' => 40
 })
 
 star1.save()
@@ -28,17 +31,20 @@ star3.save()
 
 movie1 = Movie.new({
   'title' => 'Pretty Woman',
-  'genre' => 'Rom Com'
+  'genre' => 'Rom Com',
+  'budget' => 400
   })
 
   movie2 = Movie.new({
     'title' => 'The Big Labowski',
-    'genre' => 'Comedy'
+    'genre' => 'Comedy',
+    'budget' => 300
     })
 
     movie3 = Movie.new({
       'title' => 'The Runaway Bride',
-      'genre' => 'Rom Com'
+      'genre' => 'Rom Com',
+      'budget' => 600
       })
 
 movie1.save()
